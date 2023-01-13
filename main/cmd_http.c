@@ -92,17 +92,11 @@ static int http_connect(int argc, char **argv)
     if(strcmp(http_args.http_get->sval[0], get_request) == 0)
     {
         rest_get(http_args.http_adress->sval[0]);
-        //printf("\nRequest is GET\n");
     }
     if(strcmp(http_args.http_get->sval[0], post_request) == 0)
     {
         post_rest_function(http_args.http_adress->sval[0], http_args.http_data->sval[0]);
-        //printf("\nRequest is POST\n");
     }
-    //printf("\nRequest : %s\n",  http_args.http_get->sval[0]);
-    //printf("\nURL : %s\n",  http_args.http_adress->sval[0]);
-    //printf("\ndata : %s\n",   http_args.http_data->sval[0]);
-    //ESP_LOGI(__func__, "Connected");
     return 0;
 }
 
