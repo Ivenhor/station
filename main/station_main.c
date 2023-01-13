@@ -173,8 +173,7 @@ void app_main(void)
 
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
     wifi_init_sta();
-    //rest_get();
-    //post_rest_function();
+
 
      nvs_flash_init();
     esp_console_register_help_command();
