@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Console/basic"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string": "c",
+			"esp_netif.h": "c"
+		}
+	}
+}
